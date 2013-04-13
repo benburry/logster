@@ -14,7 +14,7 @@ import optparse
 from collections import defaultdict
 
 from logster.logster_helper import MetricObject, LogsterParser
-from logsterlogster_helper import LogsterParsingException
+from logster.logster_helper import LogsterParsingException
 
 
 class RegexCountLogster(LogsterParser):
