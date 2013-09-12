@@ -4,7 +4,7 @@
 ###   matching a supplied regular expression, and output the metrics
 ###   using an optional template.
 ###
-###  For example, to reproduce the behaviour of SampleLogster one would this regex/template combination:
+###  For example, to reproduce the behaviour of SampleLogster one would use this regex/template combination:
 ###  sudo ./logster --output=stdout RegexCountLogster /var/log/httpd/access_log --parser-options '-r .*HTTP/1.\d\"\s(?P<status_code>\d)\d{2}\s.* -t http_<status_code>xx'
 ###
 ###
